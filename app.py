@@ -4,7 +4,7 @@ def process(text):
     return "Hello " + text
 
 if __name__ == "__main__":
-    st.title("Demo app")
+    st.title("Demo app v2")
 
     input_text = st.text_input("Prompt:")
     if st.button("Submit"):
